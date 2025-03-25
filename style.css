@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+body{
+    background-color: #f3e6d8;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#main{
+    background-color: #ffffff;
+    position: center;
+    margin: auto;
+    margin-top: 120px;
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    color: #5f574e;
+}
+
+#main img{
+    height: 280px;
+    width: 680px;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#main h1{
+    color: #000000;
+    font-size: 47px;
+}
+
+#main h3{
+    font-size: 35px;
+    color: #854632;
+}
+
+#main h4{
+    font-size: 25px;
+    color: #7b284f;
+}
+
+#first {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+#preparation{
+    background-color: #fff5fa;
+    padding-left: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    line-height: 40px;
+}
+
+#preparation ul{
+    list-style: none;
+}
+
+#preparation ul li::before{
+    content: "\2022";
+    color: #7b284f;
+    display: inline-block;
+    width: 30px;
+    margin-left: -32px;
+}
+
+#preparation h4{
+    line-height: 10px;
+}
+
+#ingredients{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#ingredients ul{
+    list-style: none;
+    border-bottom: 1px inset;
+}
+
+#ingredients ul li::before{
+    content: "\2022";
+    color: #854632;
+    display: inline-block;
+    width: 30px;
+    margin-left: -32px;
+}
+
+#instructions{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#instructions ol{
+    list-style: none;
+}
+
+#instructions li ::before{
+    content: counter(li);
+    color: #854632;
+    display: inline-block;
+    width: 30px;
+    margin-left: -32px;
+}
+
+#instructions li{
+    counter-increment: li;
+}
+
+#instructions {
+    border-bottom: 1px inset;
+}
+
+#nutrition{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#calories h5{
+    color: #5f574e;
+    margin-left: 30px;
+    border-bottom: 1px inset;
+}
+
+#calories p{
+    font-weight: 700;
+    color: #854632;
+    margin-left: 350px;
+    margin-top: -54px;
+}
+
+#carbs h5{
+    color: #5f574e;
+    margin-left: 30px;
+    border-bottom: 1px inset;
+}
+
+#carbs p{
+    font-weight: 700;
+    color: #854632;
+    margin-left: 350px;
+    margin-top: -54px;
+}
+
+#protein h5{
+    color: #5f574e;
+    margin-left: 30px;
+    border-bottom: 1px inset;
+}
+
+#protein p{
+    font-weight: 700;
+    color: #854632;
+    margin-left: 350px;
+    margin-top: -54px;
+}
+
+#fat h5{
+    color: #5f574e;
+    margin-left: 30px;
+}
+
+#fat p{
+    font-weight: 700;
+    color: #854632;
+    margin-left: 350px;
+    margin-top: -54px;
+}
+
+.attribution{
+    font-size: 20px;
+    text-align: center;
+}
